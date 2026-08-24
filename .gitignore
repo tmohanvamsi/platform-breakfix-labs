@@ -1,0 +1,26 @@
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+.env
+*.pem
+*.key
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+.terraformrc
+terraform.rc
+
+# Go
+bin/
+coverage.out
+
+# Helm
+*.tgz
+
