@@ -44,6 +44,16 @@ kind delete cluster --name platform-lab
 9. Observability and logging
 10. AI/GPU infrastructure, system design, and leadership
 
+## Role-specific target profiles
+
+Target profiles translate a public job description into a focused preparation
+path without claiming that the generated questions were asked by the company.
+
+- [Arm — Staff Platform and Application Engineer](targets/arm-staff-platform-application-engineer/README.md)
+
+Each profile maps role requirements to existing tracks, identifies missing
+coverage, proposes BreakFix scenarios, and provides a role-aligned mock loop.
+
 ## Lab contract
 
 Every troubleshooting lab follows:
@@ -74,4 +84,3 @@ See [ROADMAP.md](ROADMAP.md) for the complete track list and [CONTRIBUTING.md](C
 ## Status
 
 The project is being built incrementally. The first three labs are intentionally staged and will be unlocked one at a time.
-

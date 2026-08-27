@@ -26,6 +26,13 @@
 - Platform system design
 - Leadership and behavioral practice
 
+## Phase 4 — Staff platform specializations
+
+- Large-scale build systems, remote execution, caching, and artifact distribution
+- Internal developer platforms, golden paths, self-service, and platform metrics
+- AI developer tooling, MCP servers, agents, policy, and observability
+- Role-specific target profiles that compose labs without duplicating them
+
 ## Track directories
 
 ```text
@@ -43,5 +50,17 @@
 11-helm-kustomize           25-sre-incidents
 12-k8s-controllers-go       26-system-design
 13-k8s-webhooks             27-leadership
+28-build-artifact-systems
+29-internal-developer-platforms
+30-ai-developer-tooling
 ```
 
+The Phase 4 directories are planned. Until their first complete lab is added,
+their scenarios are tracked in role profiles under `targets/` rather than as
+empty folders.
+
+## Target profiles
+
+- `targets/arm-staff-platform-application-engineer`: preparation map for Arm
+  Job ID `2025-14605`, covering Linux, cloud, IaC, CI/CD, artifact systems,
+  Kubernetes/GitOps, coding, developer experience, and AI tooling.
