@@ -16,6 +16,7 @@ crash.*.log
 *.tfplan
 .terraformrc
 terraform.rc
+**/output/*.conf
 
 # Go
 bin/
